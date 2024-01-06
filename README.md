@@ -7,6 +7,32 @@ react-native link
 ```
 
 ## Usage
+
+### Android 11 (API 30) and above
+
+From Android 11 onwards, accessing the list of other installed apps is not allowed by default. Therefore, you must add the list of apps you want to query to the manifest in advance.
+
+```xml
+<manifest ...>
+    ...
+    <queries>
+        <package android:name="PACKAGE NAME HERE" />
+    </queries>
+    ...
+```
+
+Alternatively, if you need to use information from all apps, you must add the following:
+
+```xml
+<manifest ... >
+    ...
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+    ...
+```
+
+
+
 Check out the example app in the [example](https://github.com/redpandatronicsuk/react-native-check-app-install/tree/master/example) folder.
 
 ```javascript
