@@ -1,6 +1,6 @@
 {
     "name": "@bokuhe/react-native-check-app-install",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "description": "React Native plugin for checking if apps/packages are installed on the device or not.",
     "main": "index.js",
     "scripts": {
@@ -18,6 +18,9 @@
         "android"
     ],
     "author": "RedPandaTronics LTD",
+	"contributors": [
+		"bokuhe"
+	],
     "license": "MIT",
     "nativePackage": true,
     "rnpm": {

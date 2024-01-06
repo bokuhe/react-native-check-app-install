@@ -1,4 +1,4 @@
-declare module 'react-native-check-app-install' {
+declare module '@bokuhe/react-native-check-app-install' {
   export class AppInstalledChecker {
     static getAppList(): string[];
     static checkPackageName(packagename: string): Promise<boolean>;

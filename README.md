@@ -43,7 +43,7 @@ Alternatively, if you need to use information from all apps, you must add the fo
 Check out the example app in the [example](https://github.com/redpandatronicsuk/react-native-check-app-install/tree/master/example) folder.
 
 ```javascript
-import { AppInstalledChecker, CheckPackageInstallation } from 'react-native-check-app-install';
+import { AppInstalledChecker, CheckPackageInstallation } from '@bokuhe/react-native-check-app-install';
 
 // To check by app name:
 AppInstalledChecker
