@@ -1,9 +1,16 @@
 # react-native-check-app-install
 
+This package is a fork of [redpandatronicsuk/react-native-check-app-install](https://github.com/redpandatronicsuk/react-native-check-app-install), with added enhancements for build configuration and TypeScript support.
+
 ## Installation
 ```
-npm i --save react-native-check-app-install
-react-native link
+npm i --save @bokuhe/react-native-check-app-install
+```
+
+or
+
+```
+yarn add @bokuhe/react-native-check-app-install
 ```
 
 ## Usage
